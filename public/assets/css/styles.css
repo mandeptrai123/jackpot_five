@@ -701,6 +701,7 @@ body {
         width: 90px;
         height: 46px;
         float: left;
+        font-size: 18px;
         position: absolute; }
         .frontface-plate .middle-space .payline .indicator.bet {
           -webkit-transition: all 1s ease-in-out;
@@ -708,7 +709,10 @@ body {
           -webkit-animation: blink_betIndicator normal 2s infinite ease-in-out;
                   animation: blink_betIndicator normal 2s infinite ease-in-out; }
           .frontface-plate .middle-space .payline .indicator.bet .order, .frontface-plate .middle-space .payline .indicator.bet .credit_payline {
-            color: white; }
+            color: white;
+            font-size: 17px;
+          
+          }
         .frontface-plate .middle-space .payline .indicator:after {
           content: "";
           position: absolute;
@@ -722,7 +726,7 @@ body {
         .frontface-plate .middle-space .payline .indicator .order, .frontface-plate .middle-space .payline .indicator .credit_payline {
           position: absolute;
           float: left;
-          font-family: 'yanone_kaffeesatzbold';
+          font-family: 'arial';
           color: #aaaaaa; }
         .frontface-plate .middle-space .payline .indicator .order {
           font-size: 51px;
@@ -800,11 +804,13 @@ body {
       margin-top: 17px; }
     .frontface-plate .bottom-space .display_container {
       position: relative;
-      float: left; }
+      float: left; 
+      font-size: small;
+    }
+
     .frontface-plate .bottom-space .label {
       color: white;
-      font-family: 'oswaldbold';
-      font-size: 24px; }
+      font-size: 20px; }
     .frontface-plate .bottom-space .segment_display_wrap {
       width: 150px;
       height: 36px;
